@@ -45,12 +45,18 @@ request.onload = function () {
 
 
 var button = document.querySelector("button");
+var userInput = document.getElementById("userInput");
+button.addEventListener('click', showResults);
+userInput.addEventListener("keyup", function(e){
+  if (e.keyCode === 13){
+    showResults();
+  }
+})
 
-button.addEventListener('click', function(){
-  var userInput = document.getElementById("userInput");
-  const searchKeyword = userInput.value.toLowerCase();
-  const cards = document.getElementsByClassName("card"); //this is an array
-  var regex = new RegExp("\\b" + searchKeyword + "\\b", "g");
+function showResults(){
+  var searchKeyword = userInput.value.toLowerCase();
+  var cards = document.getElementsByClassName("card"); //this is an array
+  var regex = new RegExp(searchKeyword, "g");
 
   for (var i=0; i<cards.length ; i++){
     if (cards[i].textContent.toLowerCase().match(regex)){
@@ -59,6 +65,6 @@ button.addEventListener('click', function(){
       cards[i].style.display= "none";
     }
   }
-})
+}
 
 request.send();

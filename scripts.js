@@ -72,7 +72,7 @@ function showResults(){
 
 // FILTER BY JOB TYPE
 
-var ViewModel = function() {
+var chkFilter = function() {
     var self = this;
     this.filters = ko.observableArray();
     this.people = [
@@ -107,7 +107,7 @@ var ViewModel = function() {
     });          
 };
                      
-ko.applyBindings(new ViewModel());
+ko.applyBindings(new chkFilter());
   
 
 request.send();

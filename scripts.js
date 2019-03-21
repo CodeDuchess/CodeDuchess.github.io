@@ -68,27 +68,6 @@ function showResults(){
 }
 
 // FILTER BY JOB TYPE
-var checkbox = document.querySelector("checkbox");
-var userCheck = document.getElementById("box");
-checkbox.addEventListener("click", showResults2);
-userCheck.addEventListener("keyup", function(e){
-  if (e.keyCode === 13){
-    showResults2();
-  }
-})
 
-function showResults2(){
-  var searchKeyword = userCheck.value.toLowerCase();
-  var cards = document.getElementsByClassName("card"); //this is an array
-  var regex = new RegExp(searchKeyword, "g");
-
-  for (var i=0; i<cards.length ; i++){
-    if (cards[i].textContent.toLowerCase().match(regex)){
-      cards[i].style.display = "block";
-    } else{
-      cards[i].style.display= "none";
-    }
-  }
-}
 
 request.send();

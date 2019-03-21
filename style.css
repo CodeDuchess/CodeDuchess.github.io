@@ -85,7 +85,7 @@
     h3, h4 {
       text-align: left;  
       position: relative;
-      line-height: 1;
+      line-height: .5;
       top: 10px;
       left: 43px;     
       }

@@ -23,13 +23,14 @@
    <!-- CHECKBOXES FOR JOB TYPE-->
      <h3>Advanced Filters:</h3>
                                   
-     <input type="checkbox" value="Full Time Jobs" data-bind="checked: filters" /><br/>
-     <input type="checkbox" value="Part Time Jobs" data-bind="checked: filters" /><br/>
-     <input type="checkbox" value="Contract Jobs" data-bind="checked: filters" /><br/>                                                                       
-     <hr/>
-<ul data-bind="foreach: filteredPeople">
-    <li data-bind="text: name"></li>
-</ul>
+     <ul>                             
+    <input type="checkbox" value="Full Time Jobs" data-bind="checked: filters" />Full Time Jobs<br/>
+    <input type="checkbox" value="2" data-bind="checked: filters" />Part Time Jobs<br/>
+    <input type="checkbox" value="2" data-bind="checked: filters" />Contract Jobs<br/>
+    <hr/>
+       <ul data-bind="foreach: filteredJobs">
+      <li data-bind="text: name"></li>
+     </ul>
                                 
 
 <!-- DIV FOR CARD DISPLAY -->

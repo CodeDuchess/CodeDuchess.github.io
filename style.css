@@ -73,7 +73,7 @@
       margin: 0 auto;
     }
 
-    h1 {
+    h1, h2, h3 {
       text-align: center;
       padding: 1.5rem 2.5rem;
       background-color: #b0bac6;
@@ -81,12 +81,6 @@
       font-size: 1.5rem;
       color: #696969;
       }
-
-     
-
-
-
-
 
    p {
       padding: 0 2.5rem 2.5rem;

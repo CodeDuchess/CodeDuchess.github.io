@@ -75,13 +75,9 @@ function showResults(){
   }
 }
 
-<script>
-  src="http://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
 
 // FILTER BY JOB TYPE
-$(document).ready(function () {
+/*$(document).ready(function () {
     $('input[type=checkbox][data-target]').change(function () {
         var checked = $(this).prop('checked');
         var target = $(this).data('target');
@@ -90,6 +86,6 @@ $(document).ready(function () {
 });
 
 
-  
+  */
 
 request.send();

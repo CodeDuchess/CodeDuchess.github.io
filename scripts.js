@@ -72,8 +72,8 @@ function showResults(){
 var chkFilter = function() {
     var self = this;
     this.filters = apiData;
-     }
-    ];
+     };
+    
 
     this.index = {};
     

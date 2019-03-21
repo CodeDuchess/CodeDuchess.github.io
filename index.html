@@ -22,15 +22,14 @@
                                   
    <!-- CHECKBOXES FOR JOB TYPE-->
      <h3>Advanced Filters:</h3>
-  
-  <!-- Checkboxes for Job Type -->
-<div id="checkbox">
-  <input type="checkbox"  class="box active" onclick="filterSelection('all')"> Show all</button>
-  <input type="checkbox"  class="box" onclick="filterSelection('Full Time')">Full Time</button>
-  <input type="checkbox"  class="box" onclick="filterSelection('Part Time')">Part Time</button>
-  <input type="checkbox" class="box" onclick="filterSelection('Conract')">Contract</button>
-   <input type="submit" value="Submit">
- </div>
+                                  
+     <input type="checkbox" value="Full Time Jobs" data-bind="checked: filters" /><br/>
+     <input type="checkbox" value="Part Time Jobs" data-bind="checked: filters" /><br/>
+     <input type="checkbox" value="Contract Jobs" data-bind="checked: filters" /><br/>                                                                       
+     <hr/>
+<ul data-bind="foreach: filteredPeople">
+    <li data-bind="text: name"></li>
+</ul>
                                 
 
 <!-- DIV FOR CARD DISPLAY -->

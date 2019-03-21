@@ -82,13 +82,17 @@
       color: #696969;
       }
 
-    h2, h3 {
+     h3 {
       text-align: left;
       padding: 3rem;
       
       }
 
-
+     h2  {
+      text-align: left;
+      padding: 3rem;
+      
+      }
 
 
 

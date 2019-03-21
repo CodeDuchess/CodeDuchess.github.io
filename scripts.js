@@ -69,5 +69,42 @@ function showResults(){
 
 // FILTER BY JOB TYPE
 
+var ViewModel = function() {
+    var self = this;
+    this.filters = ko.observableArray();
+    this.people = [
+        {name: 'John', filters: [1,2] },
+        {name: 'Jane', filters: [2] }, 
+        {name: 'Jim', filters: [1] }
+    ];
+
+    this.index = {};
+    
+    //build an index
+    ko.utils.arrayForEach(this.people, function(person) {
+        ko.utils.arrayForEach(person.filters, function(filter) {
+            var list = self.index["" + filter] = self.index["" + filter] || [];
+            list.push(person);           
+        });
+    });
+    
+    this.filteredJobs = ko.computed(function() {
+        var filters = self.filters(),
+            result = [];
+
+        if (filters.length === 1) {
+            return self.index[filters[0]];           
+        }
+    
+        ko.utils.arrayForEach(filters, function(filter) {
+             ko.utils.arrayPushAll(result, self.index[filter]);       
+        });        
+    
+        return ko.utils.arrayGetDistinctValues(result);
+    });          
+};
+                     
+ko.applyBindings(new ViewModel());
+  
 
 request.send();

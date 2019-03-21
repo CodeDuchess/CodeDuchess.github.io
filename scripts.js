@@ -79,15 +79,12 @@ function showResults(){
 
 
 // FILTER BY JOB TYPE
-/*$(document).ready(function () {
+$(document).ready(function () {
     $('input[type=checkbox][data-target]').change(function () {
         var checked = $(this).prop('checked');
         var target = $(this).data('target');
         $('#' + target).toggle(checked);
     });
 });
-
-
-  */
 
 request.send();

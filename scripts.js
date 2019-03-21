@@ -27,10 +27,18 @@ request.onload = function () {
         const p = document.createElement('p');
         job.description = job.description.substring(0, 300);
         p.textContent = `${job.description}...`;
+            
+        const h3 = document.createElement('h3');
+        h3.textContent = job.type;
+            
+        const h4 = document.createElement('h4');
+        h4.textContent = job.location;    
 
         container1.appendChild(card);
         card.appendChild(h1);
         card.appendChild(p);
+        card.appendChild(h3);
+        card.appendChild(h4);    
         });
 
   // ERROR HANDLING

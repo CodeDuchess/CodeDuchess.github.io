@@ -42,7 +42,7 @@ request.onload = function () {
 }
 
 
-
+// FILTER BY JOB TITLE
 
 var button = document.querySelector("button");
 var userInput = document.getElementById("userInput");

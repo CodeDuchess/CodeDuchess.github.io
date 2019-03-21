@@ -71,6 +71,11 @@ function showResults(){
 var checkbox = document.querySelector("checkbox");
 var userCheck = document.getElementById("box");
 checkbox.addEventListener("click", showResults2);
+userCheck.addEventListener("keyup", function(e){
+  if (e.keyCode === 13){
+    showResults2();
+  }
+})
 
 
 request.send();

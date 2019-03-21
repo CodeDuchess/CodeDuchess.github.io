@@ -68,7 +68,9 @@ function showResults(){
 }
 
 // FILTER BY JOB TYPE
-
+var checkbox = document.querySelector("checkbox");
+var userCheck = document.getElementById("box");
+checkbox.addEventListener("click", showResults2);
 
 
 request.send();

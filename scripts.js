@@ -74,24 +74,21 @@ function showResults(){
 
 var chkFilter = function() {
     var self = this;
-    this.filters = ko.observableArray();
-    this.people = [
-        {name: 'John', filters: [1,2] },
-        {name: 'Jane', filters: [2] }, 
-        {name: 'Jim', filters: [1] }
+    this.filters = apiData;
+     }
     ];
 
     this.index = {};
     
     //build an index
-    ko.utils.arrayForEach(this.people, function(person) {
-        ko.utils.arrayForEach(person.filters, function(filter) {
+    arrayForEach(this.job, function(job) {
+    arrayForEach(person.filters, function(filter) {
             var list = self.index["" + filter] = self.index["" + filter] || [];
-            list.push(person);           
+            list.push(job);           
         });
     });
     
-    this.filteredJobs = ko.computed(function() {
+    this.filteredJobs = apiData(function() {
         var filters = self.filters(),
             result = [];
 
@@ -99,15 +96,15 @@ var chkFilter = function() {
             return self.index[filters[0]];           
         }
     
-        ko.utils.arrayForEach(filters, function(filter) {
-             ko.utils.arrayPushAll(result, self.index[filter]);       
+        arrayForEach(filters, function(filter) {
+             arrayPushAll(result, self.index[filter]);       
         });        
     
-        return ko.utils.arrayGetDistinctValues(result);
+        return arrayGetDistinctValues(result);
     });          
 };
                      
-ko.applyBindings(new chkFilter());
+applyBindings(new chkFilter());
   
 
 request.send();

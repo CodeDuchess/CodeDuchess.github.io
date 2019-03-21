@@ -67,4 +67,8 @@ function showResults(){
   }
 }
 
+// FILTER BY JOB TYPE
+
+
+
 request.send();

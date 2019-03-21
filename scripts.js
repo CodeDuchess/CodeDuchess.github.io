@@ -69,39 +69,8 @@ function showResults(){
 
 // FILTER BY JOB TYPE
 
-var chkFilter = function() {
-    var self = this;
-    this.filters = apiData;
-     };
-    
 
-    this.index = {};
-    
-    //build an index
-    arrayForEach(this.job, function(job) {
-    arrayForEach(person.filters, function(filter) {
-            var list = self.index["" + filter] = self.index["" + filter] || [];
-            list.push(job);           
-        });
-    });
-    
-    this.filteredJobs = apiData(function() {
-        var filters = self.filters(),
-            result = [];
 
-        if (filters.length === 1) {
-            return self.index[filters[0]];           
-        }
-    
-        arrayForEach(filters, function(filter) {
-             arrayPushAll(result, self.index[filter]);       
-        });        
-    
-        return arrayGetDistinctValues(result);
-    });          
-};
-                     
-applyBindings(new chkFilter());
   
 
 request.send();

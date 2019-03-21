@@ -82,14 +82,17 @@
       color: #696969;
       }
 
-    h2, h3 {
+    h3 {
       text-align: center;
       padding: 0 2.5rem 2.5rem;
       margin: 0;
       }
 
-
-
+    h2 {
+      text-align: center;
+      padding: 0 2.5rem 2.5rem;
+      margin: 0;
+      }
 
 
 

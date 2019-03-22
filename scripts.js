@@ -77,8 +77,19 @@ function showResults(){
   }
 }
 
+// FILTER BY JOB TYPE USING JQUERY
+$('input[type="checkbox"]').click(function() {
+    if ($('input[type="checkbox"]:checked').length > 0) {
+        $('.checkbox >div').hide();
+        $('input[type="checkbox"]:checked').each(function() {
+            $('.checkbox >div[data-category=' + this.id + ']').show();
+        });
+    } else {
+        $('.products >div').show();
 
-// FILTER BY JOB TYPE
+    }
+});
+
 
 
 request.send();

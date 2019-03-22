@@ -167,7 +167,8 @@
 /* FILTER BY JOB TYPE */
 
 .checkbox {
- text-align: center
+    position: relative;
+    text-align: center;
 }
 
       

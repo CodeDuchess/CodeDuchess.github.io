@@ -90,6 +90,6 @@ function showResults(){
     }
 });
 */
-
+// FILTER BY JOB TYPE USING JQUERY OPTION 2
 
 request.send();

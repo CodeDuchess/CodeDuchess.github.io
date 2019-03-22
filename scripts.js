@@ -78,7 +78,7 @@ function showResults(){
 }
 
 // FILTER BY JOB TYPE USING JQUERY OPTION 1
-/*$('input[type="checkbox"]').click(function() {
+$('input[type="checkbox"]').click(function() {
     if ($('input[type="checkbox"]:checked').length > 0) {
         $('.checkbox >div').hide();
         $('input[type="checkbox"]:checked').each(function() {
@@ -89,14 +89,6 @@ function showResults(){
 
     }
 });
-*/
-// FILTER BY JOB TYPE USING JQUERY OPTION 2
-$(document).ready(function () {
-    $('input[type=checkbox][data-target]').change(function () {
-        var checked = $(this).prop('checked');
-        var target = $(this).data('target');
-        $('#' + target).toggle(checked);
-    });
-});
+
 
 request.send();

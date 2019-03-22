@@ -82,7 +82,7 @@ $('input[type="checkbox"]').click(function() {
     if ($('input[type="checkbox"]:checked').length > 0) {
         $('.checkbox >div').hide();
         $('input[type="checkbox"]:checked').each(function() {
-            $('.checkbox >div[jobs=' + this.cbFT + ']').show();
+            $('.checkbox >div[type=' + this.cbFT + ']').show();
         });
     } else {
         $('.checkbox >div').show();

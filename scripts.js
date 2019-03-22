@@ -85,7 +85,7 @@ $('input[type="checkbox"]').click(function() {
             $('.checkbox >div[data-category=' + this.id + ']').show();
         });
     } else {
-        $('.products >div').show();
+        $('.checkbox >div').show();
 
     }
 });

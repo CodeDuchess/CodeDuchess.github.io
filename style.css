@@ -142,26 +142,26 @@
       }
 
     .container2 {
-    	padding: 20px;
-    	width: 90%;
-    	max-width: 400px;
-    	margin: 0 auto;
+       padding: 20px;
+       width: 90%;
+       max-width: 400px;
+       margin: 0 auto;
       }
 
     label {
-    	display: block;
-    	line-height: 1.5em;
+       display: block;
+       line-height: 1.5em;
      }
 
     ul {
-    	margin-left: 0;
-    	padding-left: 0;
-    	list-style: none;
+       margin-left: 0;
+       padding-left: 0;
+       list-style: none;
       }
 
     li {
-    	padding: 8px 16px;
-    	border-bottom: 1px solid #eee;
+       padding: 8px 16px;
+       border-bottom: 1px solid #eee;
       }
 
 /* FILTER BY JOB TYPE */
@@ -170,6 +170,3 @@
     position: relative;
     text-align: center;
 }
-
-      
-    

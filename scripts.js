@@ -22,7 +22,8 @@ request.onload = function () {
 
       // render relevant data: job title, job type, location and description      
         const h1 = document.createElement('h1');
-        h1.textContent = job.title;
+        h1.textContent = job.title.substring(0, 50);
+     
             
         const h3 = document.createElement('h3');
         h3.textContent = job.type;

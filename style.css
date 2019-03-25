@@ -169,6 +169,8 @@
 .checkbox {
     position: relative;
     text-align: center;
-    margin: 5px 5px 5px 6px;
-    
-}
+    width: 300px;
+    height: 100px;
+    padding: 30px;  
+    border: 10px solid blue;
+    }

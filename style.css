@@ -182,13 +182,13 @@
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
-  width: 0.2em;
-  height: 0.2em;
+  width: 0.4em;
+  height: 0.4em;
   position: relative;
   border: 0.1em solid #050a09;
   -webkit-border-radius: 0.35em;
   border-radius: 0.35em;
-  font: normal 10em/normal Arial, Helvetica, sans-serif;
+  font: normal 2em/normal Arial, Helvetica, sans-serif;
   color: rgba(0,0,0,1);
   -o-text-overflow: clip;
   text-overflow: clip;
@@ -199,7 +199,7 @@
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
-  width: 0.2em;
+  width: 0.45em;
   height: 0.1em;
   position: absolute;
   content: "";

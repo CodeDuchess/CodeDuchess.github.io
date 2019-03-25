@@ -182,8 +182,8 @@
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
-  width: 0.4em;
-  height: 0.4em;
+  width: 0.2em;
+  height: 0.2em;
   position: relative;
   border: 0.1em solid #050a09;
   -webkit-border-radius: 0.35em;
@@ -199,7 +199,7 @@
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
-  width: 0.45em;
+  width: 0.2em;
   height: 0.1em;
   position: absolute;
   content: "";

@@ -173,5 +173,6 @@
     height: 30px;
     padding: 50px;  
     border: 5px solid black;
+ /* use margin to space checkboxes across the page */
     margin: 3rem;
     }

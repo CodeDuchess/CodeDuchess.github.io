@@ -167,7 +167,7 @@
 /* FILTER BY JOB TYPE */
 
 .checkbox {
-    position: relative;
+    position: absolute;
     text-align: center;
     width: 30px;
     height: 30px;

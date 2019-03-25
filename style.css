@@ -176,3 +176,42 @@
  /* use margin to space checkboxes across the page */
     margin: 3rem;
     }
+
+.magnifying-glass {
+  display: inline-block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 0.4em;
+  height: 0.4em;
+  position: relative;
+  border: 0.1em solid #1abc9c;
+  -webkit-border-radius: 0.35em;
+  border-radius: 0.35em;
+  font: normal 10em/normal Arial, Helvetica, sans-serif;
+  color: rgba(0,0,0,1);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+}
+
+.magnifying-glass::before {
+  display: inline-block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 0.45em;
+  height: 0.1em;
+  position: absolute;
+  content: "";
+  right: -0.35em;
+  bottom: -0.2em;
+  border: none;
+  font: normal 100%/normal Arial, Helvetica, sans-serif;
+  color: black;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: #1abc9c;
+  text-shadow: none;
+  -webkit-transform: rotateZ(45deg)   ;
+  transform: rotateZ(45deg)   ;
+}

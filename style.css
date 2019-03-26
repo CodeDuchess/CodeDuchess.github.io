@@ -166,7 +166,7 @@
 
 /* FILTER BY JOB TYPE */
 
-.checkbox, h5 {
+.checkbox {
     position: relative;
     text-align: center;
   
@@ -177,7 +177,9 @@
  /* use margin to space checkboxes across the page */
     margin: 3rem;
     }
-
+h5   {
+     position: relative;
+    }
  
 .magnifying-glass {
   display: inline-block;

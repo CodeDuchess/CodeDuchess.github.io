@@ -171,7 +171,8 @@
     text-align: center;
     width: 30px;
     height: 30px;
-    padding: 0.5px;  
+    padding: 0.5px; 
+    line-height: normal;
     border: 5px solid black;
  /* use margin to space checkboxes across the page */
     margin-top: 100px;

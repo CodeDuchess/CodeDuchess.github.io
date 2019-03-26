@@ -169,14 +169,15 @@
 .checkbox {
     position: relative;
     text-align: center;
-  
     width: 30px;
     height: 30px;
     padding: 50px;  
     border: 5px solid black;
  /* use margin to space checkboxes across the page */
-    margin: 3rem;
+    margin: 5rem;
     }
+
+
 h5   {
     display: block;
     font-size: 1em;

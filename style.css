@@ -166,7 +166,7 @@
 
 /* FILTER BY JOB TYPE */
 
-.checkbox {
+.checkbox, h5 {
     position: relative;
     text-align: center;
   

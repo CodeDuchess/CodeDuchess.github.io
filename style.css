@@ -167,7 +167,7 @@
 
 .grid-container {
   display: grid;
-  grid-template-columns: 5fr 250px;
+  grid-template-columns: 1fr 2fr;
   margin-left: 50px;
   background-color: #D3D3D3;
   padding: 10px;

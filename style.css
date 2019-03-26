@@ -186,7 +186,11 @@ h5   {
     margin-inline-end: 0px;
     font-weight: bold;
     }
- 
+ #cbSV {
+       font-color: #40E0D0;
+  
+       }
+
 .magnifying-glass {
   display: inline-block;
   -webkit-box-sizing: content-box;

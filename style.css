@@ -27,7 +27,7 @@
       }
 
     .searchButton {
-      position: absolute;  
+      position: relative;  
       right: -50px;
       width: 100px;
       height: 36px;
@@ -41,7 +41,7 @@
 
     /*change search bar dimentions here*/
     .wrap{
-      position: absolute;
+      position: relative;
       left: 50%;
       top: 5px;
       transform: translate(-50%, -50%);

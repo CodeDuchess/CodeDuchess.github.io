@@ -3,27 +3,24 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>You Are TechY Job Search</title>
-  <a href="http://href="https://fonts.googleapis.com/css?family=Dosis:400,700" rel="stylesheet"></a>
-  <link rel="stylesheet" type="text/css" href="style.css">
-                                      
- </head>
-<body> 
-                                                                                                     
-                                                         
-  <!-- Search bar -->
-                                                                                
-  <div class="magnifying-glass"></div>                                                                            
+
+ 
+  <title>Github Jobs API</title>
+
+ <a href="http://href="https://fonts.googleapis.com/css?family=Dosis:400,700" rel="stylesheet""></a>
   
-  <div class="wrap"><br>
-    <div class="search"><br>
-          <h2>Search Jobs</h2>            
-          <input id ="userInput1" type="text" text="Search Jobs" class="searchTerm" placeholder="Keywords, Title, Career"></input>
-            <button type="submit" class="searchButton" id="keywordSearchButton">
-              <i class="fa fa-search"></i>
-            </button>
-        </div>
-      <div>
+  </head>
+
+<body>
+    <!-- Search bar -->
+  
+  <div class="wrap">
+    <div class="search"><br><br><br><br><br>
+      <input id ="userInput1" type="text" class="searchTerm" placeholder="Keywords, Title, Career"/>
+      <button type="submit" class="searchButton" id="keywordSearchButton">
+           <i class="fa fa-search"></i>Search
+      </button><br>
+    </div>
   
     <div class="search"><br>
       <input id ="userInput2" type="text" class="searchTerm" placeholder="Location"/>
@@ -31,25 +28,15 @@
            <i class="fa fa-search"></i>Search
       </button>
     </div>
-  </div><br> 
-          <!-- CHECKBOXES FOR JOB TYPE -->
-             <h2>Advanced Filters</h2>                     
-           <div>
-                <input type="checkbox" id= "cbFT" class= "checkbox" value="Full-Time" data-bind="checked: filters" checked/>Full-Time</input>
-                <input type="checkbox" id= "cbPT" class= "checkbox"  value="Part-Time" data-bind="checked: filters" checked/>Part-Time</input>
-                <input type="checkbox" id= "cbCT" class= "checkbox"  value="Contract" data-bind="checked: filters" checked>Contract</input>
-               <!-- <input type="checkbox" id= "cbFL" class= "checkbox"  value="Freelance" data-bind="checked: filters" checked>Freelance</input><br><br> -->
-              </div> 
-                                                                                                    
-                                                                             
+  </div><br><br><br><br>  
+                                  
+                                  
+   <!-- CHECKBOXES FOR JOB TYPE -->
+    <div> 
+      <h5>Advanced Filters:</h5>                        
+      <input type="checkbox" id= "cbFT" class= "checkbox" value="Full Time Jobs" data-bind="checked: filters" checked/>Full Time Jobs<br/>
+      <input type="checkbox" id= "cbPT" class= "checkbox"  value="Part Time Jobs" data-bind="checked: filters" checked/>Part Time Jobs<br/>
+      <input type="checkbox" id= "cbCT" class= "checkbox"  value="Contract Jobs" data-bind="checked: filters" checked>Contract Jobs
       
-                           
-<!-- DIV FOR CARD DISPLAY -->
-      <div id="root"></div>
-      <script src="scripts.js"></script>
-                              
-       <script src= https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js</script>                 
-                              
-                              
-   </body>
-</html>
+    </div> 
+  <div id="root"></div>

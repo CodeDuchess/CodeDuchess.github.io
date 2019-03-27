@@ -3,12 +3,12 @@
 
     body{
       background: #f2f2f2;
-      font-family: 'Rbno2', 'Roboto';
+      font-family: 'Roboto';
      }
 
     .search {
       width: 100%;
-      position: relative
+      position: relative;
       }
 
     .searchTerm {
@@ -168,46 +168,10 @@
 
 .checkbox {
     position: relative;
+    left: 200px;
+    top: 20px;
     text-align: center;
 }
 
-  </style>
   
-</head>
-
-<body>
-    <!-- Search bar -->
-  
-  <div class="wrap">
-    <div class="search"><br><br><br><br><br>
-      <input id ="userInput1" type="text" class="searchTerm" placeholder="Keywords, Title, Career"/>
-      <button type="submit" class="searchButton" id="keywordSearchButton">
-           <i class="fa fa-search"></i>Search
-      </button><br>
-    </div>
-  
-    <div class="search"><br>
-      <input id ="userInput2" type="text" class="searchTerm" placeholder="Location"/>
-      <button type="submit" class="searchButton" id="locationSearchButton">
-           <i class="fa fa-search"></i>Search
-      </button>
-    </div>
-  </div><br><br><br><br>  
-                                  
-                                  
-   <!-- CHECKBOXES FOR JOB TYPE -->
-    <div> 
-      <h5>Advanced Filters:</h5>                        
-      <input type="checkbox" id= "cbFT" class= "checkbox" value="Full Time Jobs" data-bind="checked: filters" checked/>Full Time Jobs<br/>
-      <input type="checkbox" id= "cbPT" class= "checkbox"  value="Part Time Jobs" data-bind="checked: filters" checked/>Part Time Jobs<br/>
-      <input type="checkbox" id= "cbCT" class= "checkbox"  value="Contract Jobs" data-bind="checked: filters" checked>Contract Jobs
-      
-    </div> 
-  <div id="root"></div>
-                 
-  
-
-   
-
-  
-
+    

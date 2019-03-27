@@ -12,6 +12,7 @@
       }
 
     .searchTerm {
+      position: relative;
       float: left;
       width: 70%;
       border: 3px;

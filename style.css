@@ -43,8 +43,8 @@
     /*change search bar dimentions here*/
     .wrap{
       position: relative;
-      left: 20%;
-      top: 5px;
+      left: 40%;
+      top: 10px;
       transform: translate(-50%, -50%);
       width: 50%; 
         

@@ -165,24 +165,6 @@
 
 /* FILTER BY JOB TYPE */
 
-.grid-container {
-  display: grid;
-  grid-template-columns: 20, 5fr;
-  margin-left: 50px;
-  background-color: #D3D3D3;
-  padding: 10px;
-  }
-
-
-
-.grid-item {
-  background-color: #D3D3D3;
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  font-size: 14px;
-  text-align: center;
-  }
-
 .checkbox {
     position: relative;
     text-align: center;

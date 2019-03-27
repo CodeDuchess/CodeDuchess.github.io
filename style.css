@@ -1,4 +1,4 @@
- /* SEARCH BAR STYLING HERE */
+  /* SEARCH BAR STYLING HERE */
     @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
     body{
@@ -12,27 +12,27 @@
       }
 
     .searchTerm {
-      position: relative;
       float: left;
-      width: 70%;
-      border: 3px;
+      width: 92%;
+      border: 3px solid  #7D317B;
       padding: 5px;
       height: 40px;
       border-radius: 5px;
       outline: none;
-    
-      } 
+      color: #9DBFAF;
+      }
 
     .searchTerm:focus{
       color: #00B4CC;
       }
 
     .searchButton {
-      position: relative;  
+      position: absolute;  
       right: -50px;
       width: 100px;
       height: 36px;
-      border: 1px;
+      border: 1px solid  #7D317B;
+      background:  #7D317B;
       text-align: center;
       color: white;
       border-radius: 5px;
@@ -42,9 +42,9 @@
 
     /*change search bar dimentions here*/
     .wrap{
-      position: relative;
-      left: 40%;
-      top: 10px;
+      position: absolute;
+      left: 50%;
+      top: 5px;
       transform: translate(-50%, -50%);
       width: 50%; 
         
@@ -168,75 +168,46 @@
 
 .checkbox {
     position: relative;
-    top: 5px;
     text-align: center;
-    background-color: rgba(221, 226, 232, 0.466666666666667);
-    width: 30px;
-    height: 30px;
-    line-height: 1;
-    border: 5px solid black;
-    padding-top: 0.1em;
-    padding-bottom: 2em;
- /* use margin to space checkboxes across the page */
-    margin-bottom: 20px;
-    margin-right: 20px;
-    margin-left: 300px;
-   
-    }
+}
 
-
-h2   {
-    text-align: center;   
-    margin-bottom: 10px;
-    margin-right: 10px;
-    margin-left: 150px;
-    font-weight: bold;
-    }
- #cbSV {
-       color: #40E0D0;
-    
+  </style>
   
-       }
+</head>
 
-.magnifying-glass {
-  display: inline-block;
-  -webkit-box-sizing: content-box;
-  -moz-box-sizing: content-box;
-  box-sizing: content-box;
-  left: 20%;
-  width: 0.4em;
-  height: 0.4em;
-  position: relative;
-  border: 0.1em solid #050a09;
-  -webkit-border-radius: 0.35em;
-  border-radius: 0.35em;
-  font: normal 2em/normal Arial, Helvetica, sans-serif;
-  color: rgba(0,0,0,1);
-  -o-text-overflow: clip;
-  text-overflow: clip;
-}
+<body>
+    <!-- Search bar -->
+  
+  <div class="wrap">
+    <div class="search"><br><br><br><br><br>
+      <input id ="userInput1" type="text" class="searchTerm" placeholder="Keywords, Title, Career"/>
+      <button type="submit" class="searchButton" id="keywordSearchButton">
+           <i class="fa fa-search"></i>Search
+      </button><br>
+    </div>
+  
+    <div class="search"><br>
+      <input id ="userInput2" type="text" class="searchTerm" placeholder="Location"/>
+      <button type="submit" class="searchButton" id="locationSearchButton">
+           <i class="fa fa-search"></i>Search
+      </button>
+    </div>
+  </div><br><br><br><br>  
+                                  
+                                  
+   <!-- CHECKBOXES FOR JOB TYPE -->
+    <div> 
+      <h5>Advanced Filters:</h5>                        
+      <input type="checkbox" id= "cbFT" class= "checkbox" value="Full Time Jobs" data-bind="checked: filters" checked/>Full Time Jobs<br/>
+      <input type="checkbox" id= "cbPT" class= "checkbox"  value="Part Time Jobs" data-bind="checked: filters" checked/>Part Time Jobs<br/>
+      <input type="checkbox" id= "cbCT" class= "checkbox"  value="Contract Jobs" data-bind="checked: filters" checked>Contract Jobs
+      
+    </div> 
+  <div id="root"></div>
+                 
+  
 
-.magnifying-glass::before {
-  display: inline-block;
-  -webkit-box-sizing: content-box;
-  -moz-box-sizing: content-box;
-  box-sizing: content-box;
-  width: 0.45em;
-  height: 0.1em;
-  position: absolute;
-  content: "";
-  left: 22%;
-  right: -0.35em;
-  bottom: -0.2em;
-  border: none;
-  font: normal 100%/normal Arial, Helvetica, sans-serif;
-  color: rgba(0,0,0,1);
-  -o-text-overflow: clip;
-  text-overflow: clip;
-  background: #091412;
-  text-shadow: none;
-  -webkit-transform: rotateZ(45deg)   ;
-  transform: rotateZ(45deg)   ;
-}
+   
+
   
 

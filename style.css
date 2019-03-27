@@ -12,12 +12,7 @@
       }
 
     .searchTerm {
-      position: absolute;
-      z-index: 200;
-      width: 100%;
-      bottom: 0;
-      left: 0;
-   /*   position: relative;
+      position: relative;
       float: left;
       width: 70%;
       border: 3px;
@@ -26,7 +21,7 @@
       border-radius: 5px;
       outline: none;
     
-      } */
+      } 
 
     .searchTerm:focus{
       color: #00B4CC;

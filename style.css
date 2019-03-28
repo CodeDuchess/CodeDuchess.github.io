@@ -166,15 +166,13 @@
 
 /* FILTER BY JOB TYPE */
 
-.checkbox{
+.checkbox {
     position: fixed;
     top: 50%;
     left: 50%;
     margin-top: -50px;
     margin-left: -100px;
-    font-size: 110%; 
-   
-}
+     }
 
   
     

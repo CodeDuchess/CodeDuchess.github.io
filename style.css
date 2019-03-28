@@ -23,7 +23,14 @@
       outline: none;
       }
       
-            
+     #userInput1 {
+          float: left;
+          }
+
+      #userInput2 {
+          float: right;
+          }
+
      .searchTerm:focus{
       color: #00B4CC;
       }

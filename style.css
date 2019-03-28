@@ -166,8 +166,8 @@
 
 /* FILTER BY JOB TYPE */
 
-.checkbox {
-    position: fixed; /* or absolute */
+.checkbox{
+    position: absolute;
     top: 50%;
     left: 50%;
     font-size: 110%; 

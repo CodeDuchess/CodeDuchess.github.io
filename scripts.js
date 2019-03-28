@@ -9,7 +9,7 @@ app.appendChild(container1);
 var request = new XMLHttpRequest();
 
 //GET REQUEST WITH USE OF HEROKU AS A PROXY TO SOLVE CORS ERROR
-request.open('GET','https://cors-anywhere.herokuapp.com/https://jobs.github.com/positions.json?&markdown=true&location=united+states&page=1&count=20', 
+request.open('GET','https://cors-anywhere.herokuapp.com/https://jobs.github.com/positions.json?&markdown=true&location=united+states&page=1&per_page=20&count=20', 
 true);
 
 request.onload = function () {  

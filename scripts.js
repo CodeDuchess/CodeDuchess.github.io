@@ -152,6 +152,7 @@ function showByJobType(){
     var numberPerPage = 20;
     var numberOfPages = 0;
     var x = "";
+    var r = "";
 
 function makeList() {
     for (x = 0; x < 200; x++)

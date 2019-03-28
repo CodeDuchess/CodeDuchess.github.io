@@ -149,7 +149,7 @@ function showByJobType(){
     var list = new Array();
     var pageList = new Array();
     var currentPage = 1;
-    var numberPerPage = 10;
+    var numberPerPage = 20;
     var numberOfPages = 0;
 
 function makeList() {

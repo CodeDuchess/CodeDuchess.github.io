@@ -14,7 +14,7 @@
       }
 
     .searchTerm {
-      position: relative;
+      float: left;
       width: 60%;
       margin-top: 150px;
       margin-left: 2px;
@@ -23,14 +23,7 @@
       outline: none;
       }
       
-     #userInput1 {
-          float: left;
-          }
-
-      #userInput2 {
-          float: right;
-          }
-
+    
      .searchTerm:focus{
       color: #00B4CC;
       }

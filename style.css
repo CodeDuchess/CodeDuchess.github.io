@@ -214,6 +214,7 @@
   /* PAGINATION */
 
 .pagination a {
+  display: inline-block;
   color: black;
   text-align: center;
   float: left;

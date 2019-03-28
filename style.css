@@ -175,11 +175,15 @@
 /* FILTER BY JOB TYPE */
 
 .checkbox {
-          position: relative;
+         /* position: relative;
           padding: 5px;
           margin-left: 300px;
           margin-top: 10px;
-          margin-bottom: 10px:
+          margin-bottom: 10px:*/
+  
+        padding-left:5px;
+        padding-right:5px;
+        border-radius:15px;
           
          
           }

@@ -14,9 +14,8 @@
     .searchTerm {
       float: left;
       width: 92%;
-      margin-top: 50px;
       border: 3px solid  #7D317B;
-      padding: 5px;
+      padding-top: 15px;
       height: 40px;
       border-radius: 5px;
       outline: none;

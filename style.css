@@ -230,4 +230,9 @@
 
 /* Add a grey background color on mouse-over */
 .pagination a:hover:not(.active) {background-color: #ddd;} 
+
+/* CENTER PAGINATION */
+.center {
+    text-align: center;
+    }
     

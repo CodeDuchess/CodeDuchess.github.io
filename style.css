@@ -215,6 +215,7 @@
 
 .pagination a {
   color: black;
+  text-align: center;
   float: left;
   padding: 8px 16px;
   text-decoration: none;

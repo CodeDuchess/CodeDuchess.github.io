@@ -167,7 +167,9 @@
 /* FILTER BY JOB TYPE */
 
 .checkbox {
-    float: left:
+    position: fixed; /* or absolute */
+    top: 50%;
+    left: 50%;
     font-size: 110%; 
    
 }

@@ -167,11 +167,7 @@
 /* FILTER BY JOB TYPE */
 
 .checkbox {
-    position: relative;
-    margin-left: 150px;
-    margin-right: 20px;
-    margin-top: 30px;
-    margin-bottom: 20px;
+    float: left:
     font-size: 110%; 
    
 }

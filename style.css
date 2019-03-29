@@ -13,7 +13,7 @@
       top: 50px;
       }
 
-    .searchTerm {
+   /* .searchTerm {
       float: left;
       width: 60%;
       margin-top: 150px;
@@ -21,7 +21,7 @@
       height: 40px;
       border-radius: 5px;
       outline: none;
-      }
+      } */
       
     
      .searchTerm:focus{

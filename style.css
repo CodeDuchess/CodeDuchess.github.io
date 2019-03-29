@@ -13,8 +13,8 @@
       top: 50px;
       }
 
-   /* .searchTerm {
-      float: left;
+    .searchTerm {
+      /*float: left;
       width: 60%;
       margin-top: 150px;
       margin-left: 2px;
@@ -22,7 +22,19 @@
       border-radius: 5px;
       outline: none;
       } */
-      
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      width: 500px;
+      height: 45px;
+      font-family: 'Roboto Medium', 'Roboto';
+      font-weight: 500;
+      font-style: normal;
+      font-size: 18px;
+      text-decoration: none;
+      color: #000000;
+      text-align: left;
+      }
     
      .searchTerm:focus{
       color: #00B4CC;

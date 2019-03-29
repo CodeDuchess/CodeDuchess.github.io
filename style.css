@@ -23,7 +23,10 @@
       border-radius: 5px;
       outline: none;
       } 
-     
+   
+      #userInput {
+        padding: 15px;
+        }
      
      .searchTerm:focus{
       color: #00B4CC;

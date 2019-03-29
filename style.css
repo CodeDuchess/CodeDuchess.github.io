@@ -24,35 +24,21 @@
       } */
      
      #userInput1 { 
-      position: absolute;
-      left: 0px;
-      top: 0px;
-      width: 500px;
-      height: 45px;
-      font-family: 'Roboto Medium', 'Roboto';
-      font-weight: 500;
-      font-style: normal;
-      font-size: 18px;
-      text-decoration: none;
-      color: #000000;
-      text-align: left;
+      height: 50px;
+      padding-left: 20px;
+      width: 100%;
+      border: none;
+      border-radius: 0
       }
     
      #userInput2 {
-      position: absolute;
-      left: 0px;
-      top: 0px;
-      width: 500px;
-      height: 45px;
-      font-family: 'Roboto Medium', 'Roboto';
-      font-weight: 500;
-      font-style: normal;
-      font-size: 18px;
-      text-decoration: none;
-      color: #000000;
-      text-align: left;
-}
-      }
+      height: 50px;
+      padding-left: 20px;
+      width: 100%;
+      border: none;
+      border-radius: 0
+        }
+      
 
      .searchTerm:focus{
       color: #00B4CC;

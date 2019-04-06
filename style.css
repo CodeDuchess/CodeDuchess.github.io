@@ -173,8 +173,11 @@
 
 .checkbox {
     position: relative;
-    text-align: center;
-}
+    top: 2px;
+    left: 100px;
+    right: 100px;
+    bottom: 2px;
+   }
 
       
     

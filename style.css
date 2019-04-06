@@ -16,12 +16,12 @@
     .searchTerm {
       float: left;
       width: 100%;
-      border: 3px solid #9981df;
+      border: 3px solid #99d18f;
       padding: 5px;
       height: 38px;
       border-radius: 5px;
       outline: none;
-      color: #9981df;
+      color: #99d18f;
       }
 
     .searchTerm:focus{

@@ -16,23 +16,17 @@
      <body>
        
     <!-- Search bar  -->
-       <div class="wrap">
-        <div class="search"><br>
-          <h4>Search Jobs</h4>
-          <input id ="userInput1" type="text" class="searchTerm" placeholder="Keywords, Title, Career"/>
-           <button type="submit" class="searchButton" id="keywordSearchButton"> 
-          <i class="fa fa-search"></i>Search
-          </button><br> 
-             
-       <br><input id ="userInput2" type="text" class="searchTerm" placeholder="Location"/>
-      <button type="submit" class="searchButton" id="locationSearchButton">
-           <i class="fa fa-search"></i>Search
-      </button>
-    </div>
-  </div>
- </div><br>
-  <br>
-           
+    <!-- Job Title -->   
+    <form method="post">
+     <input type="text" class="searchTerm" id="userInput2" placeholder="Keywords, Job Title">
+     <input title="Search" value="" type="submit" class="button">
+    </form>
+       
+     <!-- Location -->  
+    <form method="post">
+      <input type="text" class="searchTerm" id="UserInput2" placeholder="Location, City, State">
+      <input title="Search" value="" type="submit" class="button">
+    </form>
                                   
    <!-- CHECKBOXES FOR JOB TYPE -->
     <div><br> 

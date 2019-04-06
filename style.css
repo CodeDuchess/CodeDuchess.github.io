@@ -9,6 +9,11 @@
       font-family: 'Open Sans', sans-serif;
      }
 
+    img {
+      width: 400px;
+      height: 400px;
+      }
+
     .search {
       width: 100%;
       position: relative

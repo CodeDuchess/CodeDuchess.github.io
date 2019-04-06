@@ -25,8 +25,12 @@
       outline: none;
       } 
    
-      #userInput {
-        margin: 0 15px;
+      #userInput1 {
+        
+        }
+
+     #userInput2 {
+       
         }
      
      .searchTerm:focus{

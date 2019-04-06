@@ -4,7 +4,7 @@
     @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
     body{
-      background-image: url("blue_bricks.jpg");
+      background-image: src="blue_bricks.jpg";
       background: #f2f2f2;
       font-family: 'Open Sans', sans-serif;
      }

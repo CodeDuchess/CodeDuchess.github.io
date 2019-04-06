@@ -18,7 +18,7 @@
       float: left;
       padding: 2em;
       width: 40%;
-      margin-top: 120px;
+      margin-top: 20px;
       margin-left: 2px;
       height: 40px;
       border-radius: 5px;
@@ -26,11 +26,11 @@
       } 
    
       #userInput1 {
-        margin: 20px;
+        
         }
 
      #userInput2 {
-        margin: 20px;
+       
         }
      
      .searchTerm:focus{

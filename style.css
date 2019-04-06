@@ -92,7 +92,7 @@
       padding: 1.5rem 2.5rem;
       background-color: #D4D4D4;
       margin: 0 0 2rem 0;
-      font-size: 1 rem;
+      font-size: 1rem;
       color: #696969;
       }
 
@@ -107,7 +107,8 @@
       position: relative;
       line-height: .5;
       top: 10px;
-      left: 43px;     
+      left: 43px;   
+      padding: 1rem;
       }
 
     p {

@@ -3,6 +3,7 @@
     /* SEARCH BAR STYLING HERE */
     @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
+    <body style="background-image:url(women_working.jpg)">
     body{
       background-image: src="blue_bricks.jpg";
       background: #f2f2f2;

@@ -14,7 +14,7 @@ request.open('GET','https://cors-anywhere.herokuapp.com/https://jobs.github.com/
 true);
 
 request.onload = function () {  
-//CONVERT JSON DATA TO JAVASCRIPT OBJECTS USING JSON.PARSE
+// CONVERT JSON DATA TO JAVASCRIPT OBJECTS USING JSON.PARSE
     var apiData = JSON.parse(this.response);
     if (request.status >= 200 && request.status < 400) {
         apiData.forEach(job => {
@@ -53,18 +53,17 @@ request.onload = function () {
 
 
 // FILTER BY JOB TITLE
-
-var button = document.querySelector("button");
-var userInput = document.getElementById("userInput");
-button.addEventListener('click', showResults);
-userInput.addEventListener("keyup", function(e){
+var button1 = document.getElementById("keywordSearchButton");
+var userInput1 = document.getElementById("userInput1");
+button1.addEventListener('click', showResults1);
+userInput1.addEventListener("keyup", function(e){
   if (e.keyCode === 13){
     showResults();
   }
 })
 
-function showResults(){
-  var searchKeyword = userInput.value.toLowerCase();
+function showResults1(){
+  var searchKeyword = userInput1.value.toLowerCase();
   var cards = document.getElementsByClassName("card"); //this is an array
   var regex = new RegExp(searchKeyword, "g");
 
@@ -77,27 +76,72 @@ function showResults(){
   }
 }
 
-// FILTER BY JOB TYPE USING JQUERY OPTION 1
-$('input[type="checkbox"]').click(function() {
-    if ($('input[type="checkbox"]:checked').length > 0) {
-        $('.checkbox >div').hide();
-        $('input[type="checkbox"]:checked').each(function() {
-            $('.checkbox >div[type=' + this.cbFT + ']').show();
-        });
-    } else {
-        $('.checkbox >div').show();
+// FILTER BY JOB LOCATION
+var button2 = document.getElementById("locationSearchButton");
+var userInput2 = document.getElementById("userInput2");
+button2.addEventListener('click', showResults2);
+userInput2.addEventListener("keyup", function(e){
+  if (e.keyCode === 13){
+    showResults();
+  }
+})
 
+function showResults2(){
+  var searchKeyword = userInput2.value.toLowerCase();
+  var cards = document.getElementsByClassName("card");
+  var jobLocations = document.getElementsByTagName("h4");
+  var regex = new RegExp(searchKeyword, "g");
+
+  for (var i=0; i<cards.length ; i++){
+    if (jobLocations[i].textContent.toLowerCase().match(regex)){
+      cards[i].style.display = "block";
+    } else{
+      cards[i].style.display= "none";
     }
-});
+  }
+}
 
+// FILTER BY JOB TYPE 
+var fullTimeCheckBox = document.getElementById("cbFT");
+var partTimeCheckBox = document.getElementById("cbPT");
+var contractCheckBox = document.getElementById("cbCT");
+var jobType = document.getElementsByTagName("h3");
+
+fullTimeCheckBox.addEventListener("change", showByJobType);
+partTimeCheckBox.addEventListener("change", showByJobType);
+contractCheckBox.addEventListener("change", showByJobType);
+
+function showByJobType(){
+  var cards = document.getElementsByClassName("card");
+  for (var i=0; i<cards.length ; i++){
+    if (fullTimeCheckBox.checked === false){
+      if (jobType[i].textContent.toLowerCase() == "full time"){
+        cards[i].style.display = "none";
+      }
+    } else if (fullTimeCheckBox.checked){
+      if (jobType[i].textContent.toLowerCase() == "full time"){
+        cards[i].style.display = "block";
+      }
+    }
+    if (partTimeCheckBox.checked === false){
+      if (jobType[i].textContent.toLowerCase() == "part time"){
+        cards[i].style.display = "none";
+      }
+    }else if (partTimeCheckBox.checked){
+      if (jobType[i].textContent.toLowerCase() == "part time"){
+        cards[i].style.display = "block";
+      }
+    }
+    if (contractCheckBox.checked === false){
+      if (jobType[i].textContent.toLowerCase() == "contract"){
+        cards[i].style.display = "none";
+      }
+    }else if (contractCheckBox.checked){
+      if (jobType[i].textContent.toLowerCase() == "contract"){
+        cards[i].style.display = "block";
+      }
+    }
+  }
+}
 
 request.send();
-
-
-
-
-
-
-
-
-    

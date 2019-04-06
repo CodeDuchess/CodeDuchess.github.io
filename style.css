@@ -49,6 +49,10 @@
       font-size: 20px;
       }
 
+      .searchButton:hover {
+        background: #437dd6;
+        }
+
     /*change search bar dimensions here*/
     .wrap{
       position: absolute;

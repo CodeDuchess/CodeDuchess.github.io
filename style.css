@@ -174,8 +174,9 @@
 
 .cbContainer {
    position: relative;
-   left: 100px; 
+   left: 150px; 
    right: 100px;
+   top: 5px;
    
   
   }

@@ -121,7 +121,7 @@
 
     .card {
       margin: 1rem;
-      background: #bobac6;
+      background: light grey;
       box-shadow: 2px 4px 25px rgba(0, 0, 0, .1);
       border-radius: 12px;
       overflow: hidden;

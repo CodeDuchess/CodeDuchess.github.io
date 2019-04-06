@@ -171,6 +171,15 @@
 
 /* FILTER BY JOB TYPE */
 
+
+.cbContainer {
+  display: block;
+  float: left;
+  padding-right: 10px;
+  white-space: nowrap;
+  
+  }
+
 .checkbox {
     position: relative;
     text-align: center;

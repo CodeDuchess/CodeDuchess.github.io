@@ -4,16 +4,16 @@
     @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
     body{
-      background-image: url(https://unsplash.com/photos/QMDap1TAu0g);
+      background-image: "blue_bricks.jpg";
       background: #f2f2f2;
       font-family: 'Open Sans', sans-serif;
      }
 
-    img {
+    /*img {
       border-radius: 8px;
       max-width: 100%;
       height: auto;
-      }
+      }*/
 
     .search {
       width: 100%;

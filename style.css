@@ -118,6 +118,7 @@
     .container1{
       display: flex;
       flex-wrap: wrap;
+      border-radius: 10px;
      }
 
     .card {
@@ -127,7 +128,7 @@
       border-radius: 12px;
       overflow: hidden;
       transition: all .2s linear;
-      border-radius: 10px;
+    
       }
 
     .card:hover {

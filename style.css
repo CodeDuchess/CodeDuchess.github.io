@@ -90,7 +90,7 @@
     h1 {
       text-align: center;
       padding: 1.5rem 2.5rem;
-      background-color: F5F5F5;
+      background-color: #D4D4D4;
       margin: 0 0 2rem 0;
       font-size: 1 rem;
       color: #696969;
@@ -148,17 +148,17 @@
      }
 
     .card:nth-child(2n) h1 {
-      background-color: #b0bac6;
+      background-color: #D4D4D4;
       color: #696969;
      }
 
     .card:nth-child(4n) h1 {
-      background-color: #b0bac6;
+      background-color: #D4D4D4;
       color: #696969;
      }
 
     .card:nth-child(5n) h1 {
-      background-color #b0bac6;
+      background-color #D4D4D4;
       color: #696969;
       }
 

@@ -26,11 +26,11 @@
       } 
    
       #userInput1 {
-        
+        margin: 2px;
         }
 
      #userInput2 {
-       
+        margin: 20x;
         }
      
      .searchTerm:focus{

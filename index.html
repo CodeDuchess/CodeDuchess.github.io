@@ -3,62 +3,52 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>You Are TechY Jobs</title>
-
- <a href="http://href="https://fonts.googleapis.com/css?family=Dosis:400,700" rel="stylesheet""></a>
+  <title>Github Jobs API</title>
+  <a href="http://href="https://fonts.googleapis.com/css?family=Dosis:400,700" rel="stylesheet"></a>
+  <link rel="stylesheet" type="text/css" href="style.css">
+       
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+                                             
+ </head>
+<body> 
+                                                                                                          
+                                                         
+  <!-- Search bar -->
   
- <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-  </head>
-
-     <body>
-       
-    <!-- Search bar  -->
-       
-    <!-- Job Title -->   
-   <div class="wrap">
-   <div class="search">
-      <input type="text" class="searchTerm" id="UserInput1" placeholder="Job Title, Keywords?">
-      <button type="submit" class="button1" id="KeywordSearchButton">
-        <i class="fa fa-search"></i>
-     </button>
-   </div>
-</div>
-       
-     <!-- Location -->  
-   <div class="wrap">
-   <div class="search">
-      <input type="text" class="searchTerm" id="userInput2" placeholder="Location">
-      <button type="submit" class="LocationButton">
-        <i class="fa fa-search"></i>
-     </button>
-   </div>
-</div>
+  <div class="wrap">
+    <div class="search"><br><br><br><br><br>
+      <input id ="userInput1" type="text" class="searchTerm" placeholder="Keywords, Title, Career"/>
+      <button type="submit" class="searchButton" id="keywordSearchButton">
+           <i class="fa fa-search"></i>Search
+      </button><br>
+    </div>
+  
+    <div class="search"><br>
+      <input id ="userInput2" type="text" class="searchTerm" placeholder="Location"/>
+      <button type="submit" class="searchButton" id="locationSearchButton">
+           <i class="fa fa-search"></i>Search
+      </button>
+    </div>
+  </div><br><br><br><br>  
+                                  
                                   
    <!-- CHECKBOXES FOR JOB TYPE -->
-    <div><br> 
-      <h2>Advanced Filters:</h2>                        
-      <input type="checkbox" id= "cbFT" class= "checkbox" value="Full Time Jobs" data-bind="checked: filters" checked/>Full Time</input>
-      <input type="checkbox" id= "cbPT" class= "checkbox"  value="Part Time Jobs" data-bind="checked: filters" checked/>Part Time</input>
-      <input type="checkbox" id= "cbCT" class= "checkbox"  value="Contract Jobs" data-bind="checked: filters" checked>Contract</input>
+    <div> 
+      <h5>Advanced Filters:</h5>                        
+      <input type="checkbox" id= "cbFT" class= "checkbox" value="Full Time Jobs" data-bind="checked: filters" checked/>Full Time Jobs<br/>
+      <input type="checkbox" id= "cbPT" class= "checkbox"  value="Part Time Jobs" data-bind="checked: filters" checked/>Part Time Jobs<br/>
+      <input type="checkbox" id= "cbCT" class= "checkbox"  value="Contract Jobs" data-bind="checked: filters" checked>Contract Jobs
+      
     </div> 
+                                                                                     
+                                
+<!-- DIV FOR CARD DISPLAY -->
+      <div id="root"></div>
+      <script src="scripts.js"></script>
+                       
+                              
+   </body>
+</html>
 
 
-  <div id="root"></div>
   
-  <script src="scripts.js"></script>
-
-   <!-- Pagination -->
-     <div style="text-align:center;">
-      <input type="button" id="first" onclick="firstPage()" value="first" />
-      <input type="button" id="next" onclick="nextPage()" value="next" />
-      <input type="button" id="previous" onclick="previousPage()" value="previous" />
-      <input type="button" id="last" onclick="lastPage()" value="last" />
-    </div>
-
-    <div id="list"></div>
-
-    </body>
-</html> 

@@ -40,10 +40,10 @@ request.onload = function () {
             
         container1.appendChild(card);
         card.appendChild(h1);
-        card.appendChild(h5);    
         card.appendChild(h3);    
         card.appendChild(h4);      
         card.appendChild(p);
+        card.appendChild(h5);  
          });
 
   // ERROR HANDLING

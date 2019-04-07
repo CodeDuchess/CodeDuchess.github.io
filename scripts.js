@@ -44,8 +44,7 @@ request.onload = function () {
         card.appendChild(h3);    
         card.appendChild(h4);      
         card.appendChild(p);
-            
-        });
+         });
 
   // ERROR HANDLING
     } else {

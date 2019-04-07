@@ -15,12 +15,12 @@
     .searchTerm {
       float: left;
       width: 100%;
-      border: 3px solid #CFAED9;
+      border: 3px solid #40bce0;
       padding: 5px;
       height: 42px;
       border-radius: 5px;
       outline: none;
-      color: #CFAED9;
+      color: #40bce0;
       }
 
     .searchTerm:focus{
@@ -32,9 +32,9 @@
       right: -50px;
       width: 75px;
       height: 36px;
-      border: 1px solid #CFAED9;
+      border: 1px solid #40bce0;
       text-align: center;
-      color: #fff;
+      color: #40bce0;
       border-radius: 5px;
       cursor: pointer;
       font-size: 20px;

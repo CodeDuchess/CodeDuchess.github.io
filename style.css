@@ -23,12 +23,12 @@
     .searchTerm {
       float: left;
       width: 100%;
-      border: 3px solid #99d18f;
+      border: 3px solid #CFAED9;
       padding: 5px;
       height: 38px;
       border-radius: 5px;
       outline: none;
-      color: #99d18f;
+      color: #CFAED9;
       }
 
     .searchTerm:focus{
@@ -40,8 +40,7 @@
       right: -50px;
       width: 75px;
       height: 36px;
-      border: 1px solid #00B4CC;
-      background: #99d18f;
+      border: 1px solid #CFAED9;
       text-align: center;
       color: #fff;
       border-radius: 5px;

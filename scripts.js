@@ -35,12 +35,12 @@ request.onload = function () {
         job.description = job.description.substring(0, 300);
         p.textContent = `${job.description}...`;
             
-        const h2 = document.createElement('h2');
-        h2.textContent = `${job.company_url}...`;    
+        const h5 = document.createElement('h5');
+        h5.textContent = `${job.company_url}...`;    
             
         container1.appendChild(card);
         card.appendChild(h1);
-        card.appendChild(h2);    
+        card.appendChild(h5);    
         card.appendChild(h3);    
         card.appendChild(h4);      
         card.appendChild(p);

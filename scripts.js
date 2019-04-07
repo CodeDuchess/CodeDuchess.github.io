@@ -35,6 +35,9 @@ request.onload = function () {
         job.description = job.description.substring(0, 300);
         p.textContent = `${job.description}...`;
             
+        const h2 = document.createElement('h2');
+        h2.textContent = `${job.company_url}...`;    
+            
         container1.appendChild(card);
         card.appendChild(h1);
         card.appendChild(h3);    

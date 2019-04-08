@@ -138,12 +138,14 @@
     @media screen and (min-width: 600px) {
       .card {
         flex: 1 1 calc(50% - 2rem);
+        outline: 2px solid #40bce0;
        }
      }
 
     @media screen and (min-width: 900px) {
       .card {
         flex: 1 1 calc(33% - 2rem);
+        outline: 2px solid #40bce0;
        }
      }
 

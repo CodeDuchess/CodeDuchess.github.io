@@ -123,6 +123,7 @@
 
     .card {
       margin: 1rem;
+      padding: 10px;
       background: #bobac6;
       box-shadow: 2px 4px 25px rgba(0, 0, 0, .1);
       border-radius: 12px;

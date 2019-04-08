@@ -218,5 +218,7 @@
     padding: 10px;
     color: white;
    }
-
+  userInput1, userInput2 {
+    font-size: 1.5rem;
+    }
       

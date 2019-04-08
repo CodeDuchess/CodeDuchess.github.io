@@ -140,8 +140,7 @@
         flex: 1 1 calc(50% - 2rem);
         outline: 4px solid #40bce0;
         border-radius: 20px;
-        opacity: 0.5;
-       }
+        }
      }
 
     @media screen and (min-width: 900px) {
@@ -149,8 +148,7 @@
         flex: 1 1 calc(33% - 2rem);
         outline: 4px solid #40bce0;
         border-radius: 20px;
-        opacity: 0.5;
-       }
+         }
      }
 
     .card:nth-child(2n) h1 {

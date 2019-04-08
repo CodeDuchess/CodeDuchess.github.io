@@ -139,6 +139,7 @@
       .card {
         flex: 1 1 calc(50% - 2rem);
         outline: 2px solid #40bce0;
+        border-radius: 10px;
        }
      }
 
@@ -146,6 +147,7 @@
       .card {
         flex: 1 1 calc(33% - 2rem);
         outline: 2px solid #40bce0;
+        border-radius: 10px;
        }
      }
 

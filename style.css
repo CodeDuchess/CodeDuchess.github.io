@@ -199,6 +199,7 @@
 .cbContainer {
    font-size: 1.2rem;
    position: relative;
+   top: 65px;
    left: 775px; 
    padding: 5px;
    margin-left: 5px;

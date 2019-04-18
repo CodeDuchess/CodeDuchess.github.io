@@ -4,6 +4,7 @@
 
     body{
         background: url("stucco.jpg");
+        background-size: 50%;
         }
 
     .search {

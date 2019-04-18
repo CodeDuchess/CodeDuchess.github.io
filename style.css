@@ -44,7 +44,7 @@
     .wrap{
       position: absolute;
       left: 50%;
-      top: 5px;
+      top: 100px;
       transform: translate(-50%, -50%);
       width: 50%; 
       

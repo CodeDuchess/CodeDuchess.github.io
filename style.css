@@ -183,6 +183,7 @@
 .checkbox {
     position: relative;
     text-align: center;
+    padding: 10px;
    }
 
 .cbContainer {

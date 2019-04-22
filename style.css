@@ -21,7 +21,7 @@
 
     .searchTerm {
       position: relative;
-      top: 250px;
+      top: 350px;
       float: left;
       width: 70%;
       height: 50px;
@@ -39,7 +39,7 @@
 
     .searchButton {
       position: relative;  
-      top: 150px;
+      top: 350px;
       right: -50px;
       width: 70px;
       height: 36px;

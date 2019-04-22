@@ -22,6 +22,8 @@
     .searchTerm {
       position: relative;
       top: 700px;
+      right: 150px;
+      left: 150px;
       float: left;
       width: 70%;
       height: 50px;

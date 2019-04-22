@@ -7,7 +7,10 @@
      }
 
     .jumbotron, .jumbotron-fluid {
-      
+        margin-top: 20px;
+        background-image: url("working_women.jpg");
+        background-size: cover;
+        color: white;
       }
 
     .search {

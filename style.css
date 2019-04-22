@@ -6,9 +6,8 @@
       font-family: 'Open Sans', sans-serif;
      }
 
-     img {
-       max-width: 100%; 
-       height: auto;
+    .jumbotron jumbotron-fluid {
+      
       }
 
     .search {

@@ -8,7 +8,7 @@
 
     .jumbotron, .jumbotron-fluid {
         margin-top: 20px;
-        max-size: 400px;
+        height: 400px;
         background-image: url("cowomen.jpg");
         background-size: cover;
         color: white;

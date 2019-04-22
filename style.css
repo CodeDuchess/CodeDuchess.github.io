@@ -183,6 +183,12 @@
 .checkbox {
     position: relative;
     text-align: center;
-}
+   }
 
+.cbContainer {
+   position: relative;
+   top: 250px;
+   left: 150px;
+   right: 150px;
+   }
     

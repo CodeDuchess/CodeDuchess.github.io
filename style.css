@@ -29,7 +29,7 @@
     .searchButton {
       position: absolute;  
       right: -50px;
-      width: 40px;
+      width: 70px;
       height: 36px;
       border: 1px solid #00B4CC;
       background: #00B4CC;
@@ -98,6 +98,7 @@
     .container1{
       display: flex;
       flex-wrap: wrap;
+      border-radius: 12px;
      }
 
     .card {

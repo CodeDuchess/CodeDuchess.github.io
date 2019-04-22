@@ -187,7 +187,8 @@
 
 .cbContainer {
    position: relative;
-   top: 50px;
+   margin: 0 auto;
+   top: 30px;
    left: 250px;
    right: 350px;
    }

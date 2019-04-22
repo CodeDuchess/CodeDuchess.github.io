@@ -1,11 +1,10 @@
- 
-    /* SEARCH BAR STYLING HERE */
+  /* SEARCH BAR STYLING HERE */
     @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
     body{
-        background-color: beige;
-        background-size: 50%;
-        }
+      background: #f2f2f2;
+      font-family: 'Open Sans', sans-serif;
+     }
 
     .search {
       width: 100%;
@@ -14,13 +13,13 @@
 
     .searchTerm {
       float: left;
-      width: 65%;
-      border: 3px solid #1974d2;
+      width: 100%;
+      border: 3px solid #00B4CC;
       padding: 5px;
-      height: 42px;
+      height: 38px;
       border-radius: 5px;
       outline: none;
-      color: #40bce0;
+      color: #9DBFAF;
       }
 
     .searchTerm:focus{
@@ -30,11 +29,12 @@
     .searchButton {
       position: absolute;  
       right: -50px;
-      width: 75px;
+      width: 40px;
       height: 36px;
-      background-color: #1974d2;
+      border: 1px solid #00B4CC;
+      background: #00B4CC;
       text-align: center;
-      color: white;
+      color: #fff;
       border-radius: 5px;
       cursor: pointer;
       font-size: 20px;
@@ -44,14 +44,9 @@
     .wrap{
       position: absolute;
       left: 50%;
-      top: 100px;
+      top: 5px;
       transform: translate(-50%, -50%);
       width: 50%; 
-      
-      input {
-       font-size: 14px; 
-       color: white;
-      }
         
     }
     .fa fa search {
@@ -61,7 +56,7 @@
    /* STYLING FOR JS CARD LAYOUT */ 
     
     * {
-      box-sizing: border-box;
+      box-sizing: border-box
     }
 
     html {
@@ -81,15 +76,10 @@
     h1 {
       text-align: center;
       padding: 1.5rem 2.5rem;
-      background-color: white;
+      background-color: #b0bac6;
       margin: 0 0 2rem 0;
       font-size: 1.5rem;
-      color: grey;
-      }
- 
-    h2 {
-     font-size: .5rem; 
-     color: grey;
+      color: #696969;
       }
 
     h3, h4 {
@@ -97,35 +87,22 @@
       position: relative;
       line-height: .5;
       top: 10px;
-      left: 43px;  
-      color: grey;
-      }
-
-    h5 {
-      position: relative;
-      top: 0px;
-      left: 43px;
-      right: 15px;
-      bottom: 25px;  
-      margin: 6px;
-      color: grey;
+      left: 43px;     
       }
 
     p {
-      padding: 0 2.5rem 1.5rem;
+      padding: 0 2.5rem 2.5rem;
       margin: 0;
-      color: grey;
       }
 
     .container1{
+      display: flex;
       flex-wrap: wrap;
-      padding: 20px;
-      }
+     }
 
     .card {
       margin: 1rem;
-      padding: 10px;
-      background: #F5F5DC;
+      background: #bobac6;
       box-shadow: 2px 4px 25px rgba(0, 0, 0, .1);
       border-radius: 12px;
       overflow: hidden;
@@ -140,31 +117,27 @@
     @media screen and (min-width: 600px) {
       .card {
         flex: 1 1 calc(50% - 2rem);
-        border-radius: 20px;
-        padding: 15px;
-        }
+       }
      }
 
     @media screen and (min-width: 900px) {
       .card {
         flex: 1 1 calc(33% - 2rem);
-        border-radius: 20px;
-        padding: 15px;
-         }
+       }
      }
 
     .card:nth-child(2n) h1 {
-      background-color: white;
+      background-color: #b0bac6;
       color: #696969;
      }
 
     .card:nth-child(4n) h1 {
-      background-color: white;
+      background-color: #b0bac6;
       color: #696969;
      }
 
     .card:nth-child(5n) h1 {
-      background-color: white;
+      background-color #b0bac6;
       color: #696969;
       }
 
@@ -193,35 +166,9 @@
 
 /* FILTER BY JOB TYPE */
 
-
-.cbContainer {
-   font-size: 1.2rem;
-   position: relative;
-   top: 130px;
-   left: 775px; 
-   padding: 5px;
-   margin-left: 5px;
-   margin-right: 5px;
-   margin-top: 40px;
-   margin-bottom: 40px;
-   color: black;
-     }
-
 .checkbox {
     position: relative;
-    margin-left: 8px;
-    margin-right: 8px;
     text-align: center;
-    /* Double-sized Checkboxes */
-    -ms-transform: scale(2); /* IE */
-    -moz-transform: scale(2); /* FF */
-    -webkit-transform: scale(2); /* Safari and Chrome */
-    -o-transform: scale(2); /* Opera */
-    padding: 20px;
-    color: white;
-   }
+}
 
-  userInput1, userInput2 {
-    font-size: 1.5rem;
-    }
-      
+    

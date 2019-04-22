@@ -12,6 +12,8 @@
       }
 
     .searchTerm {
+      position: relative;
+      top: 150px;
       float: left;
       width: 100%;
       border: 3px solid #00B4CC;

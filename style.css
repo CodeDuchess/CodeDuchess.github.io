@@ -106,7 +106,7 @@
       margin: 0;
       }
 
-    .container1{
+    .container-fluid{
       position: relative;
       top: 200px;
       display: flex;

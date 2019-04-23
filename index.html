@@ -79,13 +79,16 @@
                                   
                                   
    <!-- CHECKBOXES FOR JOB TYPE -->
-     <div class="cbContainer"> 
-      <h3>Advanced Filters:</h3>         
-      <input type="checkbox" id= "cbFT" class= "checkbox" value="Full Time Jobs" data-bind="checked: filters" checked>Full Time Jobs<br>
-      <input type="checkbox" id= "cbPT" class= "checkbox"  value="Part Time Jobs" data-bind="checked: filters" checked>Part Time Jobs<br>
-      <input type="checkbox" id= "cbCT" class= "checkbox"  value="Contract Jobs" data-bind="checked: filters" checked>Contract Jobs<br>
-    </div>
-                                                                                     
+  <h3>Advanced Filters:</h3> 
+  
+   <div class="cbContainer"> 
+    <form action="/action_page.php">
+      <input type="checkbox" name="cbFT" value="Full Time Jobs">Full Time Jobs<br>
+      <input type="checkbox" name="cbPT" value="Part Time Jobs">Part Time Jobs<br>
+      <input type="checkbox" name="cbCT" value="Contract Jobs">Contract Jobs<br><br>
+    </form>
+   </div>
+                                                                       
                                
 <!-- DIV FOR CARD DISPLAY -->
       <div id="root"></div>

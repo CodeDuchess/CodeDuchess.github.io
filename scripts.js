@@ -7,8 +7,8 @@ container1.setAttribute('class', 'container1');
 app.appendChild(container1);
 
 //PULL IN COMPANY LOGOS
-const logo = document.createElement('img')
-logo.src = 'logo.png'
+const logo = document.createElement('img');
+logo.src = 'company_logo.png';
 
 
 //GET REQUEST WITH USE OF HEROKU AS A PROXY TO SOLVE CORS ERROR

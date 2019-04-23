@@ -5,9 +5,14 @@ const app = document.getElementById('root');
 const container1 = document.createElement('div');
 container1.setAttribute('class', 'container1');
 app.appendChild(container1);
-var request = new XMLHttpRequest();
+
+//PULL IN COMPANY LOGOS
+const logo = document.createElement('img')
+logo.src = 'logo.png'
+
 
 //GET REQUEST WITH USE OF HEROKU AS A PROXY TO SOLVE CORS ERROR
+var request = new XMLHttpRequest();
 request.open('GET','https://cors-anywhere.herokuapp.com/https://jobs.github.com/positions.json?&markdown=true&location=united+states&page=1&count=20', 
 true);
 
@@ -33,6 +38,9 @@ request.onload = function () {
         const p = document.createElement('p');
         job.description = job.description.substring(0, 300);
         p.textContent = `${job.description}...`;
+            
+        const img = document.createElement('img');
+        img.textContent    
             
         //const h5 = document.createElement('h5');
         //h5.textContent = `${job.url}...`;    

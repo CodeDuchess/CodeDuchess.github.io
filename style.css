@@ -17,7 +17,7 @@
     display-4 {
        float: left;
        font-family: "Sans Serif";
-       font-weight: bold;
+       font-weight: bold !Important;
       }
 
     .search {

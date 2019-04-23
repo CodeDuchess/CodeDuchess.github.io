@@ -198,6 +198,7 @@
     margin-left: 18px;
     text-align: center;
     padding: 20px;
+    transform: scale(1.5);
    }
 
 .cbContainer {
@@ -208,6 +209,4 @@
    left: 1100px;
      }
    
-input[type=checkbox] {
-  transform: scale(1.5);
-}
+

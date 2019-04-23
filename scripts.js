@@ -8,7 +8,7 @@ app.appendChild(container1);
 
 //PULL IN COMPANY LOGOS
 const logo = document.createElement('img');
-logo.src = 'company_logo.png';
+logo.src = 'companyLogo.png';
 app.appendChild(logo);
 
 //GET REQUEST WITH USE OF HEROKU AS A PROXY TO SOLVE CORS ERROR
@@ -40,7 +40,7 @@ request.onload = function () {
         p.textContent = `${job.description}...`;
             
         const img = document.createElement('img');
-        img.textContent = job.company_logo; 
+        img.textContent = job.companyLogo; 
             
         //const h5 = document.createElement('h5');
         //h5.textContent = `${job.url}...`;    

@@ -31,7 +31,7 @@ request.onload = function () {
             
         const h3 = document.createElement('h3');
         h3.textContent = job.type;
-            
+                   
         const h4 = document.createElement('h4');
         h4.textContent = job.location;   
             

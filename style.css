@@ -124,8 +124,6 @@
           }
 
     .card {
-      position: relative;
-      top: 200px;
       margin: 1rem;
       background:#eff4f3;
       box-shadow: 2px 4px 25px ;

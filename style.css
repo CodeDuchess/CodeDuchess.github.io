@@ -27,7 +27,7 @@
     .searchTerm {
       position: relative;
       margin-bottom: 10px;
-      top: 150px;
+      top: 230px;
       right: 250px;
       left: 250px;
       float: left;
@@ -47,7 +47,7 @@
     .searchButton {
       position: relative;  
       margin-bottom: 10px;
-      top: 150px;
+      top: 230px;
       right: 50px;
       left: 250px;
       width: 70px;

@@ -193,11 +193,9 @@
 /* FILTER BY JOB TYPE */
 
 .checkbox {
-    font-size: 16px !important;
     position: relative;
-    margin-left: 18px;
-    text-align: center;
-    padding: 20px;
+    margin-left: 2em;
+    padding: 5px;
     transform: scale(1.5);
     /* Double-sized Checkboxes */
     -ms-transform: scale(2); /* IE */

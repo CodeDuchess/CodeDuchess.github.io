@@ -196,18 +196,18 @@ input [type=checkbox] + label {
      display: block;
     }
 
-.checkbox {
+/*.checkbox {
     position: relative;
     margin-left: 18px;
     padding: 5px;
     transform: scale(1.5);
-    /* Double-sized Checkboxes */
-    -ms-transform: scale(2); /* IE */
-    -moz-transform: scale(2); /* FF */
-    -webkit-transform: scale(2); /* Safari and Chrome */
-    -o-transform: scale(2); /* Opera */
+    /* Double-sized Checkboxes 
+    -ms-transform: scale(2); /* IE 
+    -moz-transform: scale(2); /* FF 
+    -webkit-transform: scale(2); /* Safari and Chrome 
+    -o-transform: scale(2);  Opera 
     padding: 10px;
-   }
+   } */
 
 .cbContainer {
    position: relative;

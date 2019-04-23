@@ -119,10 +119,8 @@
       }
 
     .container-fluid{
-      position: relative;
-      top: 50px;
-      display: flex;
-      flex-wrap: wrap;
+         display: flex;
+         flex-wrap: wrap;
           }
 
     .card {

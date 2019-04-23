@@ -192,6 +192,7 @@
 .cbContainer {
      position: absolute;
      left: 200px;
+     font-size: 1rem;
          } 
 
 .checkbox {

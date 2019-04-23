@@ -120,11 +120,9 @@
 
     .container-fluid{
       position: relative;
-      top: 20px;
       display: flex;
       flex-wrap: wrap;
-          
-     }
+          }
 
     .card {
       position: relative;

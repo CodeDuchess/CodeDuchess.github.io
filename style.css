@@ -192,6 +192,10 @@
 
 /* FILTER BY JOB TYPE */
 
+input [type=checkbox] + label {
+     display: block;
+    }
+
 .checkbox {
     position: relative;
     margin-left: 18px;

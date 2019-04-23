@@ -194,7 +194,7 @@
 
 .checkbox {
     position: relative;
-    margin-left: 2em;
+    margin-left: 18px;
     padding: 5px;
     transform: scale(1.5);
     /* Double-sized Checkboxes */

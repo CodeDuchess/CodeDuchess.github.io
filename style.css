@@ -193,7 +193,7 @@
 
 .checkbox {
     position: relative;
-    margin: 1em;
+    margin: 0 1 0 0;
     text-align: center;
     padding: 20px;
    }

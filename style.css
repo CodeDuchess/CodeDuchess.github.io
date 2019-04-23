@@ -193,7 +193,7 @@
 /* FILTER BY JOB TYPE */
 
 .cbContainer {
-     position: relative;
+     position: absolute;
      left: 150px;
      } 
 

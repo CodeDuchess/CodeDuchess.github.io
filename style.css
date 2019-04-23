@@ -194,6 +194,7 @@
 /* FILTER BY JOB TYPE */
 
 .checkbox {
+    font-size: 12px;
     position: relative;
     margin-left: 18px;
     text-align: center;

@@ -203,6 +203,7 @@
 
 .cbContainer {
    position: relative;
+   font-size: 16px;
    margin: 0 auto;
    padding: 15px;
    top: 8px;

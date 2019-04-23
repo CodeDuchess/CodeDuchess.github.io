@@ -41,6 +41,7 @@
 
     .searchButton {
       position: relative;  
+      margin-bottom: 10px;
       top: 150px;
       right: 50px;
       left: 250px;

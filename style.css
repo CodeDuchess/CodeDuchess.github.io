@@ -19,7 +19,7 @@
         color: white;
       }
 
-    display-4 {
+    .display-4 {
        float: left;
        font-weight: bold !important;
       }

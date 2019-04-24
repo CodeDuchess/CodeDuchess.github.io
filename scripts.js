@@ -6,11 +6,6 @@ const container1 = document.createElement('div');
 container1.setAttribute('class', 'container1');
 app.appendChild(container1);
 
-//PULL IN COMPANY LOGOS
-const logo = document.createElement('img');
-logo.src = 'companyLogo.png';
-app.appendChild(logo);
-
 //GET REQUEST WITH USE OF HEROKU AS A PROXY TO SOLVE CORS ERROR
 var request = new XMLHttpRequest();
 request.open('GET','https://cors-anywhere.herokuapp.com/https://jobs.github.com/positions.json?&markdown=true&location=united+states&page=1&count=20', 

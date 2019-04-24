@@ -196,8 +196,9 @@
           } 
 
 .checkbox {
-     padding: 8px !important;
-     /* Double-sized Checkboxes */
+     /* USED MARGIN TO CREATE SPACE BETWEEN CHECKBOX AND TEXT */
+     margin: 12px !important;
+     /* DOUBLE SIZED CHECKBOXES */
     -ms-transform: scale(2); /* IE */
     -moz-transform: scale(2); /* FF */
     -webkit-transform: scale(2); /* Safari and Chrome */

@@ -33,18 +33,13 @@ request.onload = function () {
         const p = document.createElement('p');
         job.description = job.description.substring(0, 300);
         p.textContent = `${job.description}...`;
-       
-            
-        //const h5 = document.createElement('h5');
-        //h5.textContent = `${job.url}...`;    
-            
+                   
         container1.appendChild(card);
         card.appendChild(h2);
         card.appendChild(h3);    
         card.appendChild(h4);      
         card.appendChild(p);
-        card.appendChild(img);    
-       // card.appendChild(h5);  
+        
          });
 
   // ERROR HANDLING
@@ -54,7 +49,6 @@ request.onload = function () {
         app.appendChild(errorMessage);
     }
 }
-
 
 // FILTER BY JOB TITLE
 var button1 = document.getElementById("keywordSearchButton");

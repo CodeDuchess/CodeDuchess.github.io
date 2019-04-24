@@ -33,12 +33,17 @@ request.onload = function () {
         const p = document.createElement('p');
         job.description = job.description.substring(0, 300);
         p.textContent = `${job.description}...`;
+            
+        const p1 = document.createElement('p');
+        job.howToApply =job.howToApply.substring(0, 50);
+        p.textContent = `${job.howToApply}...`;    
                    
         container1.appendChild(card);
         card.appendChild(h2);
         card.appendChild(h3);    
         card.appendChild(h4);      
         card.appendChild(p);
+        card.appendChild(p1);    
         
          });
 

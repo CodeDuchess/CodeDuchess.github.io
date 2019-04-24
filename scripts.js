@@ -43,7 +43,7 @@ request.onload = function () {
         card.appendChild(h3);    
         card.appendChild(h4);      
         card.appendChild(p);
-        card.appendChild(p1);    
+        card.appendChild(p);    
         
          });
 

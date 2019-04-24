@@ -38,9 +38,7 @@ request.onload = function () {
         const p = document.createElement('p');
         job.description = job.description.substring(0, 300);
         p.textContent = `${job.description}...`;
-            
-        const img = document.createElement('img');
-        img.textContent = job.companyLogo; 
+       
             
         //const h5 = document.createElement('h5');
         //h5.textContent = `${job.url}...`;    

@@ -25,7 +25,7 @@ request.onload = function () {
         h2.textContent = `${job.title}...`;
             
         const h3 = document.createElement('h3');
-        h3.textContent = job.company;
+        h3.textContent = job.type;
                         
         const h4 = document.createElement('h4');
         h4.textContent = job.location;   

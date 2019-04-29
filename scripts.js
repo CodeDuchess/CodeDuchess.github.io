@@ -114,7 +114,7 @@ partTimeCheckBox.addEventListener("change", showByJobType);
 contractCheckBox.addEventListener("change", showByJobType);
 
 function showByJobType(){
-  var cards = document.getElementsByClassName("card");
+  let cards = document.getElementsByClassName("card");
   for (var i=0; i<cards.length ; i++){
     if (fullTimeCheckBox.checked === false){
       if (jobType[i].textContent.toLowerCase() == "full time"){

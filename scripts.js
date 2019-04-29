@@ -115,10 +115,10 @@ function showResults2(){
 }
 
 // FILTER BY JOB TYPE 
-var fullTimeCheckBox = document.getElementById("cbFT");
-var partTimeCheckBox = document.getElementById("cbPT");
-var contractCheckBox = document.getElementById("cbCT");
-var jobType = document.getElementsByTagName("h3");
+let fullTimeCheckBox = document.getElementById("cbFT");
+let partTimeCheckBox = document.getElementById("cbPT");
+let contractCheckBox = document.getElementById("cbCT");
+let jobType = document.getElementsByTagName("h3");
 
 fullTimeCheckBox.addEventListener("change", showByJobType);
 partTimeCheckBox.addEventListener("change", showByJobType);

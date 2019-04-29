@@ -32,6 +32,7 @@
 
     .searchTerm {
       position: relative;
+      font-size: 26px;
       margin-bottom: 10px;
       top: 300px;
       right: 250px;

@@ -20,18 +20,18 @@ request.onload = function () {
         card.setAttribute('class', 'card');
 
       //RENDER RELEVANT DATA - JOB TYPE, LOCATION, DESCRIPTION    
-        const h1 = document.createElement('h1');
+        const h2 = document.createElement('h2');
         job.title = job.title.substring(0, 40);    
-        h1.textContent = `${job.title}...`;
+        h2.textContent = `${job.title}...`;
             
         const h3 = document.createElement('h3');
-        h3.textContent = job.type;
-       
-        const h2 = document.createElement('h2');
-        h2.textContent = job.company;    
-                           
+        h3.textContent = job.company;  
+            
         const h4 = document.createElement('h4');
-        h4.textContent = job.location;   
+        h4.textContent = job.type;
+                           
+        const h5 = document.createElement('h5');
+        h5.textContent = job.location;   
             
         const p = document.createElement('p');
         job.description = job.description.substring(0, 300);

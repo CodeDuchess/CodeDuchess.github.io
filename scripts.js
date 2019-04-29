@@ -19,7 +19,7 @@ request.onload = function () {
         const card = document.createElement('div');
         card.setAttribute('class', 'card');
 
-      // render relevant data: job title, job type, location and description      
+      //RENDER RELEVANT DATA - JOB TYPE, LOCATION, DESCRIPTION    
         const h2 = document.createElement('h2');
         job.title = job.title.substring(0, 40);    
         h2.textContent = `${job.title}...`;

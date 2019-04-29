@@ -54,6 +54,17 @@ request.onload = function () {
     }
 }
 
+// JQUERY EVENT HANDLER TO VIEW ENTIRE JOB LISTING
+$(document).ready(function() {
+    $('#btnClickMe').on('click', sayHello);
+    
+    function sayHello()
+    {
+        alert('Hello');
+    }
+
+});
+
 // FILTER BY JOB TITLE
 var button1 = document.getElementById("keywordSearchButton");
 var userInput1 = document.getElementById("userInput1");

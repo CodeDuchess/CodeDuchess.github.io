@@ -77,6 +77,7 @@
     }
     .fa fa search {
         display: inline-flex;
+        font-size: 14px;
       }
      
    /* STYLING FOR JS CARD LAYOUT */ 

@@ -53,6 +53,7 @@
 
     .searchButton {
       position: relative;  
+      font-size: 26px;
       margin-bottom: 10px;
       top: 300px;
       right: 50px;

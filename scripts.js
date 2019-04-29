@@ -20,7 +20,7 @@ request.onload = function () {
         card.setAttribute('class', 'card');
 
       //RENDER RELEVANT DATA - JOB TYPE, LOCATION, DESCRIPTION    
-        const h2 = document.createElement('h2');
+        const h1 = document.createElement('h1');
         job.title = job.title.substring(0, 40);    
         h2.textContent = `${job.title}...`;
             
@@ -38,6 +38,7 @@ request.onload = function () {
         p.textContent = `${job.description}...`;
       
         container1.appendChild(card);
+        card.appendChild(h1);
         card.appendChild(h2);
         card.appendChild(h3); 
         card.appendChild(h4);      

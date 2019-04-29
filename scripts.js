@@ -25,10 +25,10 @@ request.onload = function () {
         h2.textContent = `${job.title}...`;
             
         const h3 = document.createElement('h3');
-        h3.textContent = job.type, job.company;
+        h3.textContent = job.type;
        
-       // const co = document.createElement('h3');
-       // co.textContent = job.company;    
+        const co = document.createElement('h3');
+        co.textContent = job.company;    
                            
         const h4 = document.createElement('h4');
         h4.textContent = job.location;   
@@ -39,6 +39,7 @@ request.onload = function () {
       
         container1.appendChild(card);
         card.appendChild(h2);
+        card.appendChild(h3); 
         card.appendChild(h3);    
         card.appendChild(h4);      
         card.appendChild(p);

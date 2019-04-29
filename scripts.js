@@ -27,7 +27,7 @@ request.onload = function () {
         const h3 = document.createElement('h3');
         h3.textContent = job.type;
        
-        const co = document.createElement('h2');
+        const h21 = document.createElement('h2');
         co.textContent = job.company;    
                            
         const h4 = document.createElement('h4');

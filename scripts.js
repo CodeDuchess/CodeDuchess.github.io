@@ -38,13 +38,12 @@ request.onload = function () {
         p.textContent = `${job.description}...`;
       
         container1.appendChild(card);
-        card.appendChild(h1);
         card.appendChild(h2);
         card.appendChild(h3); 
-        card.appendChild(h4);      
+        card.appendChild(h4);  
+        card.appendChild(h5);
         card.appendChild(p);
-          
-         });
+           });
 
   // ERROR HANDLING
     } else {

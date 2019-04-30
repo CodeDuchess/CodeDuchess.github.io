@@ -4,7 +4,7 @@ var apiData="";
 const app = document.getElementById('root');
 const container1 = document.createElement('div');
 container1.setAttribute('class', 'container1');
-//app.appendChild(container1);
+app.appendChild(container1);
 
 //GET REQUEST WITH USE OF HEROKU AS A PROXY TO SOLVE CORS ERROR
 var request = new XMLHttpRequest();

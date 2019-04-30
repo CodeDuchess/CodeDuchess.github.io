@@ -112,7 +112,8 @@
       position: relative;
       padding: 8px;
       line-height: .5;
-      left: 43px;     
+      left: 43px;  
+      margin-bottom: .2rem;
       }
 
     p {

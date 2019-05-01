@@ -52,11 +52,6 @@ request.onload = function () {
         app.appendChild(errorMessage);
     }
 }
-// JQUERY CLICK EVENT TO SHOW FULL LISTING
-$(document).on('click', '.show-job-btn', function() {
-    var children = $(this).closest('.job-desc');
-    children.toggleClass('hidden');
-});
 
 // FILTER BY JOB TITLE
 var button1 = document.getElementById("keywordSearchButton");

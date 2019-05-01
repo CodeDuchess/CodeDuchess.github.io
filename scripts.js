@@ -90,7 +90,7 @@ userInput2.addEventListener("keyup", function(e){
 function showResults2(){
   var searchKeyword = userInput2.value.toLowerCase();
   var cards = document.getElementsByClassName("card");
-  var jobLocations = document.getElementsByTagName("h4");
+  var jobLocations = document.getElementsByTagName("h5");
   var regex = new RegExp(searchKeyword, "g");
 
   for (var i=0; i<cards.length ; i++){
@@ -106,7 +106,7 @@ function showResults2(){
 let fullTimeCheckBox = document.getElementById("cbFT");
 let partTimeCheckBox = document.getElementById("cbPT");
 let contractCheckBox = document.getElementById("cbCT");
-let jobType = document.getElementsByTagName("h3");
+let jobType = document.getElementsByTagName("h4");
 
 fullTimeCheckBox.addEventListener("change", showByJobType);
 partTimeCheckBox.addEventListener("change", showByJobType);

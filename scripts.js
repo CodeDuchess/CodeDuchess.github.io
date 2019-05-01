@@ -52,17 +52,11 @@ request.onload = function () {
         app.appendChild(errorMessage);
     }
 }
-
-/* JQUERY EVENT HANDLER TO VIEW ENTIRE JOB LISTING
-$(document).ready(function() {
-    $('#btnClickMe').on('click', sayHello);
-    
-    function sayHello()
-    {
-        alert('Hello');
-    }
-
-}); */
+// JQUERY CLICK EVENT TO SHOW FULL LISTING
+$(document).on('click', '.show-job-btn', function() {
+    var children = $(this).closest('.job-desc');
+    children.toggleClass('hidden');
+});
 
 // FILTER BY JOB TITLE
 var button1 = document.getElementById("keywordSearchButton");

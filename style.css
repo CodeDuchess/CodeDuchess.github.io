@@ -190,30 +190,21 @@
     	border-bottom: 1px solid #eee;
       }
 
-    .hidden {
-       display:none!important;
-      }
+     /* FILTER BY JOB TYPE */
 
-    .card:hover {
-       cursor:pointer;
-      }
-   
-
-/* FILTER BY JOB TYPE */
-
-.cbContainer {
-     position: absolute;
-     left: 200px;
+   .cbContainer {
+       position: absolute;
+       left: 200px;
           } 
 
-.checkbox {
-     /* USED MARGIN TO CREATE SPACE BETWEEN CHECKBOX AND TEXT */
-     margin: 12px !important;
-     /* DOUBLE SIZED CHECKBOXES */
-    -ms-transform: scale(2); /* IE */
-    -moz-transform: scale(2); /* FF */
-    -webkit-transform: scale(2); /* Safari and Chrome */
-    -o-transform: scale(2); /* Opera */
-    padding: 10px;
-    }
+   .checkbox {
+       /* USED MARGIN TO CREATE SPACE BETWEEN CHECKBOX AND TEXT */
+       margin: 12px !important;
+       /* DOUBLE SIZED CHECKBOXES */
+      -ms-transform: scale(2); /* IE */
+      -moz-transform: scale(2); /* FF */
+      -webkit-transform: scale(2); /* Safari and Chrome */
+      -o-transform: scale(2); /* Opera */
+      padding: 10px;
+       }
 

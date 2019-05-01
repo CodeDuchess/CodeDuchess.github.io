@@ -190,6 +190,15 @@
     	border-bottom: 1px solid #eee;
       }
 
+    .hidden {
+       display:none!important;
+      }
+
+    .card:hover {
+       cursor:pointer;
+      }
+   
+
 /* FILTER BY JOB TYPE */
 
 .cbContainer {
